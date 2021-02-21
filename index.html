@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+ <head>
+  <meta charset="UTF-8">
+  <title>ストップウォッチ</title>
+ </head>
+
+ <body>
+   
+  <form name="stopwatch">
+    <input type="text" size="20" name="display" value="00:00:00.000" style="text-align: center"><BR><BR>
+    <input type="button" name="startbutton" value="スタート" onClick="swStart()">
+    <input type="button" name="stopbutton" value="ストップ" onClick="swStop()" disabled>
+    <input type="button" name="resetbutton" value="リセット" onClick="swReset()" disabled>
+  </form>
+
+  <script src="main.js"></script>
+
+ </body>
+</html>
